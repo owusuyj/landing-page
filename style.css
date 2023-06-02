@@ -66,3 +66,42 @@ button {
     border: 2px solid white;
     color: white;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.main h2 {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border: 2px solid #1F2937;
+    border-radius: 20px;
+}
+
+.details {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 10px 0
+}
+
+.main-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #E5e7eb;
+    height: 30vh;
+}
