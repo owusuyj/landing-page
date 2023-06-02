@@ -95,13 +95,70 @@ button {
     display: flex;
     gap: 20px;
     justify-content: space-around;
-    padding: 10px 0
+    padding: 20px 0;
+}
+
+.one {
+    padding-left: 0px;;
+}
+
+.two {
+    padding-left: 40px;
+}
+
+.three {
+    padding-right: 28px;
+}
+
+.four {
+    padding-right: 72px;
 }
 
 .main-2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    background: #E5e7eb;
+    align-items: center;
+    height: 50vh;
+    background-image: url("splash.png");
+    font-size: 80px;
+    padding-top: ;
+}
+
+h3 {
+    color: rgb(28, 28, 28)
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 30vh;
+    background-color: #D8D5D5;
+}
+
+.holder {
+    display: flex;
+    background-color: #1F2937;
+    height: 15vh;
+    width: 40vw;
+    border-radius: 12px;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    width: 26vw;
+}
+
+.left-footer > * {
+    padding: 8px 0 8px 0;
+}
+.right-footer > button {
+    width: 8vw;
+    font-size: larger;
+    background-color:#1F2937
 }
